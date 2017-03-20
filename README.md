@@ -12,3 +12,17 @@
 
 
 
+* 前面的三本参考书籍：
+
+《Python编程：从入门到实践》【美】Eric Matthes 袁国忠译 图灵程序设计图书
+
+《Python语言及其应用》Bill Lubanovic 图灵程序设计图书
+
+《Python编程快速上手-让繁琐工作自动化》Al Sweigart 王海鹏译 人民邮电出版社
+
+* 腾讯课堂的学习视频链接
+
+[https://ke.qq.com/user/index/index.html\#sid=plan&cid=112539&term\_id=100158403](https://ke.qq.com/user/index/index.html#sid=plan&cid=112539&term_id=100158403)
+
+
+
