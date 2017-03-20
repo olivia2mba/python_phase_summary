@@ -1,3 +1,14 @@
-# My Awesome Book
+# 本书介绍
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+这是我学习python的第三本读书笔记，第一本读书笔记（书名：python）是基于三本参考书做的知识点总结，初次学习总结的逻辑性会差一些，而且缺少自己的思考。
+
+第二本读书笔记（书名：python-tengxun）是自己对python已经有了一个初步的认识之后，学习了腾讯课堂里的公开课，发现还是遗漏了部分知识点，自己对python基础知识了解的逻辑也增强了很多。
+
+所以决定总结第三次，加深对python基础知识的理解。
+
+后续再总结的内容都会基于这本笔记去补充，不会出现重复内容。
+
+我为什么会花这么多时间放在python基础知识的理解和学习上，是因为我始终认为学习一本编程语言，后续的程序练习和项目锻炼很重要，但是基础的学习也是万万不能马虎的，一个好的基础学习会给后续的学习打下一个良好的基础。
+
+
+
