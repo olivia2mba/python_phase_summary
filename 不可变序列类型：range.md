@@ -38,7 +38,89 @@ type\(\) 函数是可以查看一个对象类型的函数。
 
 * ## **对于序列的通用操作也适用于range类型**
 
-## 
+&gt;&gt;&gt; r
+
+range\(0, 5\)
+
+&gt;&gt;&gt; r\[0\]
+
+0
+
+&gt;&gt;&gt; r\[-1\]
+
+4
+
+&gt;&gt;&gt; 3 in r
+
+True
+
+&gt;&gt;&gt; 9 in r
+
+False
+
+&gt;&gt;&gt; r\[:\]
+
+range\(0, 5\)
+
+&gt;&gt;&gt; min\(r\)
+
+0
+
+&gt;&gt;&gt; max\(r\)
+
+4
+
+&gt;&gt;&gt; len\(r\)
+
+5
+
+&gt;&gt;&gt; r.index\(3\)
+
+3
+
+&gt;&gt;&gt; r.count\(4\)
+
+1
+
+&gt;&gt;&gt; sum\(r\)
+
+10
+
+&gt;&gt;&gt; r\[0:2\]
+
+range\(0, 2\)
+
+&gt;&gt;&gt; r = r\[0:2\]
+
+&gt;&gt;&gt; r
+
+range\(0, 2\)
+
+&gt;&gt;&gt; r\[4\]
+
+Traceback \(most recent call last\):
+
+  File "&lt;pyshell\#396&gt;", line 1, in &lt;module&gt;
+
+    r\[4\]
+
+IndexError: range object index out of range
+
+&gt;&gt;&gt; r\[2\]
+
+Traceback \(most recent call last\):
+
+  File "&lt;pyshell\#397&gt;", line 1, in &lt;module&gt;
+
+    r\[2\]
+
+IndexError: range object index out of range
+
+&gt;&gt;&gt; r\[0\]
+
+0
+
+
 
 * ## **range类型的声明：**
 
