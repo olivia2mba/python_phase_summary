@@ -100,9 +100,11 @@ range\(0, 2\)
 
 Traceback \(most recent call last\):
 
-  File "&lt;pyshell\#396&gt;", line 1, in &lt;module&gt;
+File "&lt;pyshell\#396&gt;", line 1, in &lt;module&gt;
 
-    r\[4\]
+```
+r\[4\]
+```
 
 IndexError: range object index out of range
 
@@ -110,9 +112,11 @@ IndexError: range object index out of range
 
 Traceback \(most recent call last\):
 
-  File "&lt;pyshell\#397&gt;", line 1, in &lt;module&gt;
+File "&lt;pyshell\#397&gt;", line 1, in &lt;module&gt;
 
-    r\[2\]
+```
+r\[2\]
+```
 
 IndexError: range object index out of range
 
@@ -120,15 +124,85 @@ IndexError: range object index out of range
 
 0
 
-
-
 * ## **range类型的声明：**
 
 1）参数只有1个，代表终止数值，此数值并不包括在序列里。
+
+&gt;&gt;&gt; r = range\(5\)
+
+&gt;&gt;&gt; r
+
+range\(0, 5\)
+
+&gt;&gt;&gt; r = range\(3, 12\)
+
+&gt;&gt;&gt; r
+
+range\(3, 12\)
+
+&gt;&gt;&gt; for i in r:
+
+	print\(i\)
+
+
+
+	
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
 
 3） 参数有2个，代表起始数值和终止数值，序列包括起始数值，不包括终止数值。
 
 后面的for循环只是便于理解range序列里的数值，其本身range\(3, 12\)的含义要理解。
 
 4） 参数如果有3个，第三个参数代表step步长值。
+
+&gt;&gt;&gt; range\(1,21,2\)
+
+range\(1, 21, 2\)
+
+&gt;&gt;&gt; r = range\(1,21,2\)
+
+&gt;&gt;&gt; for i in r:
+
+	print\(i\)
+
+
+
+	
+
+1
+
+3
+
+5
+
+7
+
+9
+
+11
+
+13
+
+15
+
+17
+
+19
 
