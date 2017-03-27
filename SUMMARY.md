@@ -18,7 +18,5 @@
 * [控制流语句：if](控制流语句：if.md)
 * 控制流语句：while
 * 控制流语句：for
-* python基本语法
-
-
+* [python基本语法](python基本语法.md)
 
